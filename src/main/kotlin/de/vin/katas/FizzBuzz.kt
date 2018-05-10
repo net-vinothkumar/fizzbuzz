@@ -6,6 +6,7 @@ import de.vinoth.katas.Constants.Companion.FIZZ
 class FizzBuzz {
 
     fun play(number: Int): String {
+        println("play method called")
         return when {
             isDivisibleBy15(number) -> FIZZ + BUZZ
             isDivisibleBy3(number) -> FIZZ
